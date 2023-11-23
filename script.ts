@@ -74,9 +74,15 @@ fetch("https://mocki.io/v1/765b2daf-41d5-4e94-a0d5-abd918f57b8f")
 
       //   console.log(`Capo d'abbigliamento ${element.id}:` + capoAbbigliamento);
       console.log(`Capo abbigliamento ${element.id}: `, capoAbbigliamento);
-
       console.log(`Saldo : `, capoAbbigliamento.getSaldoCapo());
       console.log(`Totale capo: `, capoAbbigliamento.getAcquistoCapo());
+
+      //   const container = document.getElementsByClassName("container") as HTMLDivElement;
+
+      //   const card = document.createElement("div");
+      //   card.classList.add("card");
+
+      //   container?.appendChild(card);
     });
   })
 
